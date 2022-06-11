@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/bg-pattern-top-desktop.svg"),
+    url("images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
+  font-family: "League Spartan", sans-serif;
+}
+
+main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 10px;
+  /* margin: 11.8rem 16.5rem 10rem 16.5rem; */
+}
+
+.hero-section {
+  margin-bottom: 7.1rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12.5rem;
+}
+
+.hero-text-box {
+  max-width: 44.5rem;
+  margin-bottom: 3.9rem;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.heading-xl {
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: -2px;
+  color: #512051;
+  margin-bottom: 1.6rem;
+}
+
+.hero-description {
+  color: #927b91;
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.hero-rating {
+  justify-items: end;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #512051;
+  gap: 3.2rem;
+  padding: 2rem 7.9rem 2rem 3.2rem;
+  background-color: #f7f2f7;
+  margin: 1.6rem;
+  border-radius: 8px;
+}
+
+.star {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.rating:nth-child(1) {
+  transform: translateX(-20%);
+}
+
+.rating:nth-child(2) {
+  transform: translateX(-10%);
+}
+
+.testimonials {
+  display: flex;
+
+  gap: 3rem;
+}
+
+.testimonial-card {
+  width: 35rem;
+  background-color: #512051;
+  font-size: 1.7rem;
+
+  color: white;
+  padding: 4rem 3.2rem;
+  border-radius: 8px;
+}
+
+.customer-img {
+  border-radius: 50%;
+  width: 4rem;
+  margin-right: 2.3rem;
+}
+
+.header-customer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.1rem;
+}
+
+.customer-name {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.verified-buyer {
+  color: #ee69a4;
+}
+
+.customer-info span {
+  display: block;
+}
+
+.customer-text {
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  line-height: 2.2rem;
+}
+
+.testimonial-card:nth-child(2) {
+  transform: translateY(5%);
+}
+
+.testimonial-card:nth-child(3) {
+  transform: translateY(10%);
+}
